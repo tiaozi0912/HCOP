@@ -1,3 +1,4 @@
 LOG:  database system was shut down at 2013-02-02 17:22:43 PST
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
+LOG:  received SIGHUP, reloading configuration files
