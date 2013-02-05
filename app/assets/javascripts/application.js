@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require jquery-ui-1.8.23.custom.min.js
+//= require page.js
+//= require slide.js
