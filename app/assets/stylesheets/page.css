@@ -12,13 +12,17 @@
 }
 body{
   background-color: #fff;
+  min-width: 1170px;
   /*background-image: url('/images/bedge_grunge.png');*/
+}
+body p{
+	font-size:18px;
+	line-height:22px;
 }
 .sub-container{
 	margin:0px 85px 0px 85px;
 	padding-top:30px;
 	padding-bottom:30px;
-	border-bottom:1px solid #999;
 }
 #header .sub-container{
 	border-width:0px;
@@ -26,10 +30,8 @@ body{
 .relative-position{
 	position: relative;
 }
-#header{
-	height:250px;
-	/*background:rgb(94,155,252);*/
-	background-image: linear-gradient(bottom, rgb(51,86,140) 0%, rgb(94,157,252) 100%);
+.blue-gradient{
+    background-image: linear-gradient(bottom, rgb(51,86,140) 0%, rgb(94,157,252) 100%);
 	background-image: -o-linear-gradient(bottom, rgb(51,86,140) 0%, rgb(94,157,252) 100%);
 	background-image: -moz-linear-gradient(bottom, rgb(51,86,140) 0%, rgb(94,157,252) 100%);
 	background-image: -webkit-linear-gradient(bottom, rgb(51,86,140) 0%, rgb(94,157,252) 100%);
@@ -43,10 +45,27 @@ body{
 		color-stop(1, rgb(94,157,252))
 	);
 }
-#photo-slider-wrapper{
-	position: relative;
-	top:-100px;
+#header{
+	height:350px;
+	/*background:rgb(94,155,252);*/
+}
+#header img{
+	height:70px;
+	width:auto;
+}
+#header p{
+	margin-top:30px;
+	color:rgb(123,27,21);
+}
+header{
+	margin-bottom:30px;
+}
+#photo-slider{
+	position: absolute;
+	top:-60px;
 	left:0px;
+	width:100%;
+	height:auto;
 }
 #intro-wrapper{
 	height:480px;
@@ -60,18 +79,44 @@ body{
 }
 #photo-slider .span4{
 	width:33.33%;
-	border:5px solid rgb(94,155,252);
+	border:3px solid rgb(94,155,252);
 }
 #photo-slider .span6{
 	width:50%;
 }
 .shadow{
-  -webkit-box-shadow: 0 1px 4px #666;
-  box-shadow: 0 1px 4px #666;
-  -moz-box-shadow: 0 1px 4px #666;
+  -webkit-box-shadow: 0 1px 4px #333;
+  box-shadow: 0 1px 4px #333;
+  -moz-box-shadow: 0 1px 4px #333;
+}
+.upside-shadow{
+  -webkit-box-shadow: 0 -1px 4px #666;
+  box-shadow: 0 -1px 4px #666;
+  -moz-box-shadow: 0 -1px 4px #666;
 }
 .border{
 	border:1px solid black;
 }
+.line{
+	border-bottom: 1px solid rgba(39,80,143,0.85);
+	-webkit-box-shadow: 0 1px 1px #aaa;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+}
+.section-line{
+  border-top:1px solid #999;
+}
+.main h2{
+  color:rgb(94,155,252);
+  margin-bottom:20px;
+}
+#footer h2{
+	color:rgb(123,27,21);
+	margin-bottom:20px;
+}
+#span{
+	height:400px;
+}
+
 
 
