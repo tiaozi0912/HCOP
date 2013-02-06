@@ -1,0 +1,14 @@
+%article
+  %section
+    .row-fluid
+      .span3
+        %img{:src=> "#{@student.photo}"}
+      .span9
+        %h2 #{@student.name}
+        %span #{@student.school}
+  %section
+    %h4 Profile
+    %p #{@student.profile}
+  %section
+    %h4 Project
+    %p #{@student.project}

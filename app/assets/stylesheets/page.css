@@ -15,7 +15,7 @@ body{
   min-width: 1170px;
   /*background-image: url('/images/bedge_grunge.png');*/
 }
-body p{
+body,p,h4{
 	font-size:18px;
 	line-height:22px;
 }
@@ -125,6 +125,15 @@ header{
 	background-color: #333;
 	top:0px;
 	left:0px;
+}
+#intro-wrapper article{
+	padding:20px;
+}
+#intro-wrapper .span3{
+	margin-right:10px;
+}
+#intro-wrapper section{
+	margin-bottom:20px;
 }
 
 
