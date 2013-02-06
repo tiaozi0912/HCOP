@@ -16,11 +16,14 @@
 
   }
   $.fn.initialize = function(){
+    //need image loading callback
     $selector = this;
     var $img = $selector.find('img:first');
-    var height = $img.height();
-    var width = $img.width();
-    $('.img-cover').height(height);
-    $('.img-cover').width(width);
+    $img.load(function(){
+      var height = $img.height();
+      var width = $img.width();
+      $('.img-cover').height(height);
+      $('.img-cover').width(width);
+    }) 
   }
 })(jQuery)
