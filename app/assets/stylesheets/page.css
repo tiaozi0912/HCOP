@@ -73,13 +73,14 @@ header{
 }
 #photo-slider img{
 	width:100%;
+	cursor: pointer;
 }
 #photo-slider [class*="span"]{
 	margin:0px;
 }
 #photo-slider .span4{
 	width:33.33%;
-	border:3px solid rgb(94,155,252);
+	border:5px solid rgb(94,155,252);
 }
 #photo-slider .span6{
 	width:50%;
@@ -116,6 +117,9 @@ header{
 }
 #span{
 	height:400px;
+}
+img.light{
+	display:none;
 }
 
 
