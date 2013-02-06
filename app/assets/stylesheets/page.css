@@ -118,8 +118,13 @@ header{
 #span{
 	height:400px;
 }
-img.light{
-	display:none;
+.img-cover{
+	position:absolute;
+	z-index: 5;
+	opacity: 0.8;
+	background-color: #333;
+	top:0px;
+	left:0px;
 }
 
 

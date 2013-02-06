@@ -1,16 +1,21 @@
 (function($){
-  $.fn.clickEffect = function(){
+  $.fn.hoverEffect = function(){
   	$selector = this;
-    $selector.find('img').click(function(){
-    	reset();
-      $(this).css('display','none');
-      $(this).siblings('img.light').css('display','block');
-    })
-  	function reset(){
-		  var $imgs_light = $selector.find('img.light');
-  	  var $imgs_dim = $selector.find('img.dim');
-      $imgs_light.css('display','none');
-      $imgs_dim.css('display','block');
-  	}
+    $selector.find('.span4').hover(function(){
+      //$(this).children('.img-cover').fadeOut();
+      $(this).children('.img-cover').addClass('invisible');
+    },function(){
+      //$(this).children('.img-cover').css('display','block');
+      $(this).children('.img-cover').removeClass('invisible');
+    });
+    
+  }
+  $.fn.initialize = function(){
+    $selector = this;
+    var $img = $selector.find('img:first');
+    var height = $img.height();
+    var width = $img.width();
+    $('.img-cover').height(height);
+    $('.img-cover').width(width);
   }
 })(jQuery)
