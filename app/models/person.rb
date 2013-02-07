@@ -10,7 +10,7 @@ class Person
 
   def self.nine_students
 	  	students = Array.new
-	  	students[0] = Person.new('Mike','Stanford University','Student profile goes here','Student project goes here',"/images/student_photo_1.jpg")
+	  	students[0] = Person.new('Mike','Stanford University','Student profile goes here','Student project goes here',"/images/student_photo_1.png")
 	  	students[1] = Person.new('Jim','Stanford University','Student profile goes here','Student project goes here',"/images/student_photo_2.jpg")
 	  	students[2] = Person.new('Alan','Stanford University','Student profile goes here','Student project goes here',"/images/student_photo_3.jpg")
 	  	students[3] = Person.new('John','Stanford University','Student profile goes here','Student project goes here',"/images/student_photo_4.jpg")
