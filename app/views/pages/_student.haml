@@ -2,8 +2,8 @@
   %section
     .row-fluid
       .span3
-        %img{:src=> "#{@student.photo}"}
-      .span9
+        %img.img-circle.shadow{:src=> "#{@student.photo}"}
+      .span8#student-name
         %h2 #{@student.name}
         %span #{@student.school}
   %section

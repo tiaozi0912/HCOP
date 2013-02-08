@@ -135,6 +135,18 @@ header{
 #intro-wrapper section{
 	margin-bottom:20px;
 }
+#intro-wrapper #student-name{
+	margin-left:20px;
+}
+#intro-wrapper h2{
+	color: rgb(94,155,252);
+	font-weight:normal;
+}
+img.img-circle{
+	border-radius: 53px;
+	-web-border-radius:53px;
+	-moz-border-radius:53px;
+}
 
 
 
