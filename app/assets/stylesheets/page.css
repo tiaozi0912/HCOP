@@ -68,7 +68,7 @@ header{
 	height:auto;
 }
 #intro-wrapper{
-	height:480px;
+	height:500px;
 	background-color: white;
 }
 #photo-slider img{
@@ -116,7 +116,8 @@ header{
 	margin-bottom:20px;
 }
 #span{
-	height:400px;
+	height:460px;
+	/*background-image:url('/images/leather.png');*/
 }
 .img-cover{
 	position:absolute;
@@ -168,6 +169,14 @@ img.img-circle{
    border-top: 10px solid transparent;
    border-bottom: 10px solid transparent; 
 }
-
+#footer img{
+	width:100%;
+}
+#footer .sub-container{
+	margin-bottom: 40px;
+}
+#photo-slider-wrapper{
+	height:0px;
+}
 
 

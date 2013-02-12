@@ -1,2 +1,2 @@
 FATAL:  lock file "postmaster.pid" already exists
-HINT:  Is another postmaster (PID 1708) running in data directory "/usr/local/pgsql/data"?
+HINT:  Is another postmaster (PID 3581) running in data directory "/usr/local/pgsql/data"?

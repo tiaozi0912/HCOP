@@ -16,7 +16,7 @@
         var id = settings.hightlight - 1;
         $('#student_'+id).find('.img-cover').addClass('invisible');
         sendAjaxCall(id);
-      }) 
+      })
     } 
 
   	$selector = this;
